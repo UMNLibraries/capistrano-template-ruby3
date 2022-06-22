@@ -1,9 +1,8 @@
-[![Gem Version](https://badge.fury.io/rb/capistrano-template.svg)](http://badge.fury.io/rb/capistrano-template)
-[![Build Status](https://travis-ci.org/faber-lotto/capistrano-template.svg?branch=master)](https://travis-ci.org/faber-lotto/capistrano-template)
-[![Code Climate](https://codeclimate.com/github/faber-lotto/capistrano-template.png)](https://codeclimate.com/github/faber-lotto/capistrano-template)
-[![Coverage Status](https://coveralls.io/repos/faber-lotto/capistrano-template/badge.png?branch=master)](https://coveralls.io/r/faber-lotto/capistrano-template?branch=master)
-
 # Capistrano::Template 
+
+A patched version of Capistrano::Template for use with Ruby > 3 copied from a branch of [this repo](https://github.com/wildfiler/capistrano-template/tree/ruby_2_7_0_deprecations) from @wildfiler.
+
+-----
 
 A capistrano 3 plugin that aids in rendering erb templates and
 uploads the content to the server if the file does not exists at
@@ -13,7 +12,7 @@ the remote host or the content did change.
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano-template'
+    gem 'capistrano-template', git: 'https://github.com/umnlibraries/capistrano-template', branch: 'ruby3'
 
 And then execute:
 
