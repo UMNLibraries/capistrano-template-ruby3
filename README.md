@@ -1,6 +1,8 @@
 # Capistrano::Template 
 
-A patched version of Capistrano::Template for use with Ruby > 3 copied from a branch of [this repo](https://github.com/wildfiler/capistrano-template/tree/ruby_2_7_0_deprecations) from @wildfiler.
+A patched version of Capistrano::Template for use with Ruby > 3 copied from a branch of [this repo](https://github.com/wildfiler/capistrano-template/tree/ruby_2_7_0_deprecations) from [@wildfiler](https://github.com/wildfiler).
+
+Tested with Ruby versions 2.6.9, 2.7.5, 3.0.3, and 3.1.1.
 
 -----
 
@@ -12,7 +14,7 @@ the remote host or the content did change.
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano-template', git: 'https://github.com/umnlibraries/capistrano-template', branch: 'ruby3'
+    gem 'capistrano-template', git: 'https://github.com/UMNLibraries/capistrano-template-ruby3'
 
 And then execute:
 
